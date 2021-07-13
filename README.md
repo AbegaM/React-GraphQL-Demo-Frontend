@@ -10,7 +10,7 @@
 
 1.  Clone the repo
     ```
-    git clone https://github.com/AbegaM/React-GraphQL-Demo-Backend.git
+    git clone https://github.com/AbegaM/React-GraphQL-Demo-Frontend.git
     ```
 2.  Install NPM packages
     ```
@@ -27,10 +27,10 @@
       ```
       * REACT_APP_API_URL is the address of the backend
 
-    * Example for environment variables,
-      ``` 
-        REACT_APP_API_URL=http://localhost:6000
-      ```
+   * Example for environment variables,
+     ``` 
+      REACT_APP_API_URL=http://localhost:6000
+     ```
 ## Running code
 
 - Running code with local environment
