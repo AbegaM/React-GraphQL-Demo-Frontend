@@ -16,3 +16,11 @@ export const CREATE_TESTDATA = gql`
     }
   }
 `;
+
+export const GET_SAMPLEDATA = gql`
+  mutation ($test: String) {
+    getSubscriptionData(input: { test: $test }) {
+      test
+    }
+  }
+`;
